@@ -9,10 +9,11 @@ abstract class Shape {
 class Circle extends Shape {
     double radius;
     double area() {
+        System.out.println("I am the shape Circle.");
         return (Math.PI*radius*radius);
     }
 }
-public class R31_Abstract_Class {
+public class R32_Abstract_Class {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         Circle sh=new Circle();
